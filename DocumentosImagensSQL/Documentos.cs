@@ -11,6 +11,7 @@ namespace DocumentosImagensSQL
         private string nombre;
         private byte[] documento;
         private string extension;
+        private string hola;
 
         SqlConnection conexion = new SqlConnection("server=DESKTOP-N1Q1432; database= ImagenSQLSERVER; integrated security=true");
 
